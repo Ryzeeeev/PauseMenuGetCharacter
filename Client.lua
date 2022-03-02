@@ -13,4 +13,9 @@ RegisterCommand("testp", function()
   ApplyPedDamagePack(PedPreview, "BigHitByVehicle", 0.0, 1.0)
   SetPedHeadBlendData(PedPreview , 0, 0, 0, 0, 0, 0, 0, 0, 0, false)
   
+  print('----------')
+  print('Player loaded')
+  print('----------')
+
+
 end)
